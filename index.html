@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация на квартирник</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+        <style>
+            @import url("fonts/alcotton/style.css")
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+        </style>
+    </head>
+    <body>
+        <h1>Провести самый уютный вечер</h1>
+        <div class="form">
+            <form method="post" action="index">
+                <p>Ваше имя:</p>
+                <p><input type="text" maxlength="25" size="50" name="name"></p>
+                <p>Ваша фамилия:</p>
+                <p><input type="text" maxlength="25" size="50" name="surname"></p>
+                <p>Ваш номер телефона:</p>
+                <p><input type="text" maxlength="25" size="50" name="phone"></p>
+                <p>Ваша электронная почта:</p>
+                <p><input type="text" maxlength="50" size="50" name="email"></p>
+                <p class="button"><input type="submit" value="Отправить"></p>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    padding-top: 15px;
+    font-family: 'Alcotton', sans-serif;
+    letter-spacing: -10px;
+    color: #830E0E;
+    background-color: #FFFAF0;
+}
+
+h1{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    border: 1px solid #830E0E;
+}
+
+input[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    border: 1px solid #830E0E;
+    background-color: #830E0E;
+    color: white;
+    padding: 7px 23px 7px 15px;
+    margin-top: 15px;
+    letter-spacing: -8px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
